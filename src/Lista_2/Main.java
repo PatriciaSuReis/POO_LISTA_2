@@ -45,10 +45,18 @@ public class Main {
 				 ex5.exibirResultados();
 				break;
 			case 6: 
+				Ex6 ex6 = new Ex6();
+				ex6.impares100e200();
 				break;
 			case 7: 
+				Ex7 ex7 = new Ex7();
+				ex7.receberValor();
+				ex7.tabuadaN();
 				break;
 			case 8: 
+				Ex8 ex8 = new Ex8();
+				ex8.valorRecebido();
+				ex8.sequenciaEFatorial();
 				break;
 			default:
 				System.out.println("Opcao invalida!");
@@ -61,10 +69,12 @@ public class Main {
 			
 		}while (input.nextLine().equalsIgnoreCase("s"));
 		
+		System.out.println("Fim do programa!");
+		
 		input.close();
-	}
+	}// fim main
 
-}
+}// fim class
 
 
 
